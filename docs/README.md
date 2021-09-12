@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae6cc00f-9422-4b25-9489-de2bc9e2de28/deploy-status)](https://order-summary-component99.netlify.app/)
+
 ![Design preview for the Order summary card coding challenge](./images/design/desktop-preview.jpg)
 
 ## Welcome! 👋
