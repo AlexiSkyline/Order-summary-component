@@ -23,9 +23,10 @@ body {
     font-weight: 400;
 }
 body::before {
-    background-image: url( ./images/pattern-background-desktop.svg );
+    background-image: url( /images/pattern-background-desktop.svg );
+    background-size: 100vw 50vh;
     background-repeat: no-repeat;
-    top: -150px;
+    top: 0px;
     content: ' ';
     display: block;
     height: 90%;   
