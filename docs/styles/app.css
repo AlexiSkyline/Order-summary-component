@@ -13,7 +13,6 @@
     /* Body Copy */
     --Font-size: 16px
 }
-
 body {
     background-color: var( --Pale-blue );
     box-sizing: border-box;
@@ -24,7 +23,7 @@ body {
     font-weight: 400;
 }
 body::before {
-    background-image: url( /images/pattern-background-desktop.svg );
+    background-image: url( ./images/pattern-background-desktop.svg );
     background-repeat: no-repeat;
     top: -150px;
     content: ' ';
@@ -39,17 +38,20 @@ body::before {
 *::before {
     box-sizing: inherit;
 }
-
 img {
     max-width: 100%;
 }
-
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 /* Todo: Card Section */
 .card {
     background-color: white;
     width: 350px;
-    height: 540px;
-    margin: 30px auto;
+    height: 550px;
     border-radius: 15px;
 }
 .card__hero {
@@ -79,7 +81,7 @@ img {
     background-color: var( --Very-pale-blue );
     border-radius: 10px;
     display: flex;
-    height: 10vh;
+    height: 70px;
     margin-top: 35px;
     padding: 10px;
 }
